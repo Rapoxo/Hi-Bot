@@ -44,7 +44,7 @@ namespace Hi_bot
             
 
             _client.Log += async (msg) => { Console.WriteLine(msg.Message); };
-            sCommands.Log += async (msg) => { Console.WriteLine(msg.Message); };
+            sCommands.Log +=  async (msg) => { Console.WriteLine(msg.Message); };
 
             _client.Ready += async () => 
             {
